@@ -1,0 +1,92 @@
+
+Design a Procedure to check if a number is divisible by 9 and 11 but not by 10
+
+99 is correct
+
+990 is wrong
+
+Design a procedure to calculate GCD(GCF, HCF) for two given numbers
+
+
+while(n2 != 0)
+{
+	temp = n2
+	n2 = n1 % n2
+	n1 = temp
+}
+
+gcd = n1
+
+for( i = 1; i <= n; i++)
+	print i
+
+Repeat Until(i > n)
+	print i
+	i++
+
+table, lb, ub
+10, 100, 105
+
+10 x 100 = 1000
+10 x 101 = 1010
+
+Generation of N Prime Numbers
+
+1. Checking if a number is a factor of another number
+2. Check if a number is Prime
+3. Generate N Primes
+
+Recursion is expensive(Computation and time) when compared to Iteration
+
+
+Recursive Function(parameters)
+	base condition(smallest possible version of the same problem for which solution is known)
+
+	Recursive Call(reduced parameter complexity)
+
+power = 1
+for(i = 1; i <= n; i++)
+	power = power * a
+
+PowerN(a, n):
+	if(n == 0)
+		return 1
+	else
+		return a * powerN(a, n-1)
+
+
+Design a recursive procedure to calculate a ^ n
+
+File Handling in Flowcharts
+
+Redirecting Data
+
+from File to Program -> Read --- Redirect Input
+Program to File->Write, Append -Redirect Output
+
+Redirect_Input(Filename)
+Input Block
+
+Redirect_Output(Filename)
+Output Block
+
+Channels - I/O
+
+Standard Input Channel - Keyboard
+Standard Output Channel - MasterConsole
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
