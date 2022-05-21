@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+ 
+  <meta charset="utf-8">
+ 
+  <title>HTML Basics</title>
+  
+ <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+ 
+   <div id="wrapper">
+    <div id="main">
+      <div id="container">
+        <div id="content" role="main">
+  
+        <!-- TODO: Content goes here -->
+ 
+
+        <figure> 
+         <img src="logo.png" alt="EPAM COMPANY"> 
+        </figure>
+    <h1>HTML Elements</h1>
+<nav>
+      <a href="#home"> Home </a>&nbsp &nbsp
+<a href="#headers"> Headers </a>&nbsp &nbsp
+<a href="#table"> Table </a>&nbsp &nbsp
+<a href="#list"> List </a>&nbsp &nbsp
+<a href="#textformat"> Textformats </a>&nbsp &nbsp
+<a href="#blockquote"> Blockquotes </a></br>
+</nav>
+<h2 id="headers"></h2>
+	Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have 	         to use only one h1 on the page, and it is commonly used inside header
+     <h2>Header 2</h2>
+     <h3>Header 3</h3>
+     <h4>Header 4</h4>
+     <h5>Header 5</h5>
+     <h6>Header 6</h6>	<br/>
+Lorem ipsum dolor sit amet, test link adipiscing elit. <strong>This is strong</strong>. Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized<em>. Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup> = 125. Water is H<sub>2O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. The New York Times (That &#39s a citation).<u>Underline.</U> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.<br/>
+
+HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type COPY filename. <strike>Dinner`s at 5:00.</strike> Let&#39s make that 7. This text has been struck.<br/>
+
+<h2 id="table">Table</h2>
+	<table border="true">
+ <thead>
+  <tr>
+    <th>Header</th>
+    <th>Header</th>
+    <th>Header</th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+    <td>Lviv</td>
+    <td>Kyiv</td>
+    <td>Kharkiv</td>
+  </tr>
+  <tr>
+    <td>Odessa</td>
+    <td>Zhytomyr</td>
+    <td>Dnipro</td>
+  </tr>
+<tr>
+    <td>Sumy</td>
+    <td>Chernivtsi</td>
+    <td>Lutsk</td>
+  </tr>
+</tbody>
+</table> </br>
+<h2 id="list">Unordered List</h2>
+<ul>
+<li>List item 1</li>
+<li>List item 2
+    <ul>
+	<li>Some nested list item 1</li>
+     </ul>
+</li>	
+<li>List item 3</li>
+</ul></br>
+<h2>Ordered List</h2>
+<ol>
+<li> List item 1</li>
+<li> List item 2</li>
+     <ol type="A">
+	<li> Some nested list item 1</li>
+      </ol>
+<li> List item 3</li>
+</ol></bR>
+
+<h2>Definition List</h2>
+<dl>
+<dt><b>defines terms 1</b></dt>
+<dd>description 1</dd>
+<dt><b>defines terms 2</b></dt>
+<dd>description</dd> 
+</dl>
+</br>
+Details
+<select name="webpages">
+<option value="html">HTML</option>
+<option value="css">CSS</option>
+<option value="js">JS</option>
+</select>
+
+<h2 id="textformat">Text formats</h2>
+Article Text
+<article>
+<h3>Article title</h3>
+Article description<br>
+<h3>Preformatted Text</h3><br>
+
+</article>
+<pre>
+Text
+  in a pre element
+    is displayed in a fixed-width
+font, and it preserves
+both           spaces and
+    line breaks
+
+<h4>Code</h4>
+
+.wrapper {
+display: flex;
+  vertical-align: middle;
+  justify-content: center;
+ }
+</pre>
+
+<h2 id="blockquote">Blockquotes</h2>
+
+Let&#39s keep it simple. Italics are good to help set it off from the body text. Be sure to style the citation.<br>
+<p> 
+&nbsp&nbsp"If you go back a few hundred years, what we take for granted today would seem like magic-being able to talk to<br>&nbsp&nbsp people  over long distances,to transmit images,flying, accessing vast amounts of data like an oracle.These are all<br> &nbsp&nbspthings that  would have been considered magic a few hundred years ago."</p>          
+<u>Elon Musk</u><br/>
+<form align=right>
+First name:<input type=text><br>
+Surname:<input type=text><br>
+Email:<input type=email><br>
+<textarea rows="6" cols="28" ></textarea><br>
+<input type="submit" name="submit" value="Submit" />
+</form>
+
+        <footer>&copy Copyright Epam Systems</footer>
+
+
+
+       </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
